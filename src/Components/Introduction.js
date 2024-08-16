@@ -1,5 +1,7 @@
 import LocationIcon from "./icons/locationIcon";
-
+import TwitterIcon from "./icons/TwitterIcon";
+import FigmaIcon from "./icons/FigmaIcon";
+import CatIcon from "./icons/CatIcon";
 const Introduction = () => {
   return (
     <div class="my-24 px-8 flex gap-12">
@@ -20,7 +22,17 @@ const Introduction = () => {
             <LocationIcon />
             <p> Ulaanbaatar, Mongolia </p>
           </div>
-          <div class="flex gap-2 justify-center"></div>
+          <div class="flex gap-2 align-center">
+            <div class="h-6 w-6 flex items-center justify-center">
+              <div class="h-2 w-2 rounded-3xl bg-emerald-500"></div>
+            </div>
+            <p> Available for new projects</p>
+          </div>
+        </div>
+        <div class="flex gap-1">
+          <CatIcon />
+          <TwitterIcon />
+          <FigmaIcon />
         </div>
       </div>
 

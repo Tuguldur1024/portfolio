@@ -5,5 +5,4 @@ const CvButton = (props) => {
     </button>
   );
 };
-
 export default CvButton;
