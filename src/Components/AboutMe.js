@@ -12,7 +12,7 @@ const AboutMe = () => {
               Curious about me? Here you have it:
             </p>
             <p>
-              I'm a designer turned full stack developer, passionate about
+              Im a designer turned full stack developer, passionate about
               React.js and Node.js. I excel in blending technical and visual
               aspects to craft exceptional digital products, prioritizing user
               experience, precise design, and optimized code.
