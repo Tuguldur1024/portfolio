@@ -1,11 +1,13 @@
 import ButtonAbout from "./ButtonAbout";
-
+import Image from 'next/image';
 const AboutMe = () => {
   return (
     <div class="flex flex-col gap-12 items-center">
       <ButtonAbout text="About me" />
       <div class="flex gap-12 ">
-        <div class="w-2/4"></div>
+        <div class="w-2/4 flex justify-start">
+          <div class="border-8 border-solid border-gray-50	"> <Image src="/images/AboutMe.png" width={400} height={480}/> </div>
+        </div>
         <div class="w-2/4 ">
           <div class="flex flex-col gap-4 font-normal text-base text-gray-600">
             <p class="font-semibold text-3xl mb-2">

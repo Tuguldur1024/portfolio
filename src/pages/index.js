@@ -5,6 +5,7 @@ import Skills from "../Components/Skills";
 import Experience from "../Components/Experience";
 import Work from "../Components/Work";
 import GetInTouch from "../Components/GetInTouch";
+import Footer from "../Components/Footer";
 const Home = () => {
   return (
     <div class="flex flex-col">
@@ -26,6 +27,9 @@ const Home = () => {
       </div>
       <div class="px-20 py-24">
         <GetInTouch/>
+      </div>
+      <div class="bg-gray-50 py-6 px-20">
+        <Footer/>
       </div>
     </div>
   );

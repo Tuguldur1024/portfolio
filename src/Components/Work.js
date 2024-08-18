@@ -5,17 +5,20 @@ const data = [
     {name: "UBCab",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
         frameworks: ["React","Next.js","Typescript","Nest.js","PostgreSQL","Tailwindcss","Figma","Cypress","Storybook","Git"],
-        imageSource : "./images/Ubcab.png"
+        imageSource : "/images/Ubcab.png",
+        index: 0,
     },
     {name: "Mentorhub",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
         frameworks: ["React","Next.js","Typescript","Nest.js","PostgreSQL","Tailwindcss","Figma","Cypress","Storybook","Git"],
-        imageSource : "./images/MentorHub.png"
+        imageSource : "/images/MentorHub.png",
+        index : 1,
     },
     {name: "iToim",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
         frameworks: ["React","Next.js","Typescript","Nest.js","PostgreSQL","Tailwindcss","Figma","Cypress","Storybook","Git"],
-        imageSource : "./images/iToim.png"
+        imageSource : "/images/iToim.png",
+        index: 2,
     }
 ]
 
@@ -27,7 +30,7 @@ const Work = ()=>{
                 Some of the noteworthy projects I have built:
             </p>
             {data.map((OneWork, index)=>{
-                return <JobInstance key={index} imageSource={OneWork.imageSource} name={OneWork.name} description={OneWork.description} frameworks={OneWork.frameworks}/>
+                return <JobInstance key={index} number={OneWork.index} imageSource={OneWork.imageSource} name={OneWork.name} description={OneWork.description} frameworks={OneWork.frameworks}/>
             })}
         </div>
     )

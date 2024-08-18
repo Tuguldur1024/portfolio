@@ -2,6 +2,7 @@ import LocationIcon from "./icons/locationIcon";
 import TwitterIcon from "./icons/TwitterIcon";
 import FigmaIcon from "./icons/FigmaIcon";
 import CatIcon from "./icons/CatIcon";
+import Image from 'next/image';
 const Introduction = () => {
   return (
     <div class="my-24 px-8 flex gap-12">
@@ -36,7 +37,9 @@ const Introduction = () => {
         </div>
       </div>
 
-      <div class="w-2/4"></div>
+      <div class="w-2/4 flex justify-end">
+        <Image src="/images/Intro.png" width={320} height={360} alt="Intro Picture"/>
+      </div>
     </div>
   );
 };
