@@ -2,13 +2,16 @@ import LocationIcon from "./icons/locationIcon";
 import TwitterIcon from "./icons/TwitterIcon";
 import FigmaIcon from "./icons/FigmaIcon";
 import CatIcon from "./icons/CatIcon";
-import Image from 'next/image';
+import Image from "next/image";
 const Introduction = () => {
   return (
     <div class="my-24 px-8 flex gap-12">
       <div class="w-2/4 flex flex-col gap-12">
         <div>
-          <h1 class="text-5xl font-bold "> Hi, I'm him 👋</h1>
+          <h1 class="text-5xl font-bold sm:font-semibold sm:text-4xl	">
+            {" "}
+            Hi, I'm him 👋
+          </h1>
           <p class="mt-2 text-gray-600  font-normal">
             I specialize in full stack development, particularly with React.js
             and Node.js. My main goal is to create exceptional digital
@@ -38,7 +41,12 @@ const Introduction = () => {
       </div>
 
       <div class="w-2/4 flex justify-end">
-        <Image src="/images/Intro.png" width={320} height={360} alt="Intro Picture"/>
+        <Image
+          src="/images/Intro.png"
+          width={320}
+          height={360}
+          alt="Intro Picture"
+        />
       </div>
     </div>
   );

@@ -1,18 +1,19 @@
 import NavigationLink from "./NavigationLink";
 import CvButton from "./CvButton";
 import LightIcon from "./icons/LightIcon";
+import InfoIcon from "./icons/InfoIcon";
+
 let links = [
   { name: "About" },
   { name: "Work" },
   { name: "Testimonials" },
   { name: "Contact" },
 ];
-
 const Navbar = () => {
   return (
-    <div class="flex justify-center items-center px-8 justify-between my-4">
+    <div class="flex items-center px-8 justify-between my-4 sm:px-0">
       <p class="font-normal text-3xl"> Tuguldur </p>
-      <div class="flex justify-between gap-4 items-center">
+      <div class="flex justify-between gap-4 items-center sm:hidden">
         <div class="flex justify-center gap-4">
           {links.map((link) => {
             return <NavigationLink text={link.name} />;
@@ -25,6 +26,9 @@ const Navbar = () => {
           </div>
           <CvButton text="Download CV" />
         </div>
+      </div>
+      <div className="hidden sm:block">
+        <InfoIcon />
       </div>
     </div>
   );

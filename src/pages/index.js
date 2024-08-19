@@ -6,14 +6,15 @@ import Experience from "../Components/Experience";
 import Work from "../Components/Work";
 import GetInTouch from "../Components/GetInTouch";
 import Footer from "../Components/Footer";
+
 const Home = () => {
   return (
     <div class="flex flex-col">
-      <div class="mx-20">
+      <div class="mx-20 sm:mx-4">
         <Navbar />
         <Introduction />
       </div>
-      <div class="bg-gray-50 px-28 py-24">
+      {/* <div class="bg-gray-50 px-28 py-24">
         <AboutMe />
       </div>
       <div class="px-28 py-24">
@@ -23,14 +24,14 @@ const Home = () => {
         <Experience />
       </div>
       <div class="px-20 py-24">
-        <Work/>
+        <Work />
       </div>
       <div class="px-20 py-24">
-        <GetInTouch/>
+        <GetInTouch />
       </div>
       <div class="bg-gray-50 py-6 px-20">
-        <Footer/>
-      </div>
+        <Footer />
+      </div> */}
     </div>
   );
 };
