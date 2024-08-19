@@ -26,8 +26,6 @@ let upperIcons = [
   { name: "Javascript", value: <Javascript /> },
   { name: "Nest.js", value: <Nest /> },
   { name: "Socket.io", value: <Socket /> },
-];
-let bottomIcons = [
   { name: "MongoDb", value: <MongoDb /> },
   { name: "Sass/Scss", value: <Sass /> },
   { name: "Tailwindcss", value: <StoryBook /> },
@@ -41,11 +39,10 @@ const Skills = () => {
   return (
     <div class="flex flex-col items-center gap-4">
       <ButtonAbout text="Skills" />
-      <p class="font-normal text-gray-600 text-xl mb-8">
+      <p class="font-normal text-gray-600 text-xl mb-8 sm:mb-2">
         The skills, tools and technologies I am really good at:
       </p>
-      <div class="w-full flex flex-col gap-12">
-        <div class="w-full flex justify-between">
+        <div class="w-full grid grid-cols-8 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 justify-between">
           {upperIcons.map((upperIcon, index) => {
             return (
               <Framework
@@ -56,18 +53,6 @@ const Skills = () => {
             );
           })}
         </div>
-        <div class="w-full flex justify-between">
-          {bottomIcons.map((bottomIcon, index) => {
-            return (
-              <Framework
-                key={index}
-                icon={bottomIcon.value}
-                text={bottomIcon.name}
-              />
-            );
-          })}
-        </div>
-      </div>
     </div>
   );
 };

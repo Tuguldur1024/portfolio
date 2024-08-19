@@ -24,9 +24,9 @@ const data = [
 
 const Work = ()=>{
     return(
-        <div class="flex flex-col gap-4 items-center px-16">
+        <div class="flex flex-col gap-4 items-center px-16 sm:px-0">
             <ButtonAbout text="Work" />
-            <p class="font-normal text-gray-600 text-xl mb-8">
+            <p class="font-normal text-gray-600 text-xl mb-8 text-center sm:mb-2">
                 Some of the noteworthy projects I have built:
             </p>
             {data.map((OneWork, index)=>{

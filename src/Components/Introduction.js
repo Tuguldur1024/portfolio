@@ -5,8 +5,8 @@ import CatIcon from "./icons/CatIcon";
 import Image from "next/image";
 const Introduction = () => {
   return (
-    <div class="my-24 px-8 flex gap-12">
-      <div class="w-2/4 flex flex-col gap-12">
+    <div class="my-24 px-8 flex gap-12 sm:flex-col-reverse sm:my-16 sm:px-0">
+      <div class="w-2/4 flex flex-col gap-12 sm:w-full">
         <div>
           <h1 class="text-5xl font-bold sm:font-semibold sm:text-4xl	">
             {" "}
@@ -40,7 +40,7 @@ const Introduction = () => {
         </div>
       </div>
 
-      <div class="w-2/4 flex justify-end">
+      <div class="w-2/4 flex justify-center sm:w-full">
         <Image
           src="/images/Intro.png"
           width={320}

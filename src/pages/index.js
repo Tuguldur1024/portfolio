@@ -14,24 +14,24 @@ const Home = () => {
         <Navbar />
         <Introduction />
       </div>
-      {/* <div class="bg-gray-50 px-28 py-24">
+      <div class="bg-gray-50 px-28 py-24 sm:py-16 sm:px-4">
         <AboutMe />
       </div>
-      <div class="px-28 py-24">
+      <div class="px-28 py-24 sm:py-16 sm:px-4">
         <Skills />
       </div>
-      <div class="bg-gray-50 px-20 py-24">
+      <div class="bg-gray-50 px-20 py-24 sm:py-16 sm:px-4">
         <Experience />
       </div>
-      <div class="px-20 py-24">
+      <div class="px-20 py-24 sm:py-16 sm:px-4">
         <Work />
       </div>
-      <div class="px-20 py-24">
+      <div class="px-20 py-24 sm:py-16 sm:px-4">
         <GetInTouch />
       </div>
-      <div class="bg-gray-50 py-6 px-20">
+      <div class="bg-gray-50 py-6 px-20 sm:px-0">
         <Footer />
-      </div> */}
+      </div>
     </div>
   );
 };
