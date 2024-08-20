@@ -3,7 +3,7 @@ import CvButton from "./CvButton";
 import LightIcon from "./icons/LightIcon";
 import InfoIcon from "./icons/InfoIcon";
 
-let links = [
+const links = [
   { name: "About" },
   { name: "Work" },
   { name: "Testimonials" },
@@ -12,7 +12,9 @@ let links = [
 const Navbar = () => {
   return (
     <div class="flex items-center px-8 justify-between my-4 sm:px-0">
-      <p class="font-normal text-3xl"> Tuguldur </p>
+      <p class="font-normal text-3xl font-rubikMono dark:text-gray-50	">
+        Tuguldur
+      </p>
       <div class="flex justify-between gap-4 items-center sm:hidden">
         <div class="flex justify-center gap-4">
           {links.map((link) => {
@@ -21,7 +23,7 @@ const Navbar = () => {
         </div>
         <div class="h-6 w-0 bg-gray-100 border"></div>
         <div class="flex items-center gap-4">
-          <div>
+          <div onClick={toggleTheme}>
             <LightIcon />
           </div>
           <CvButton text="Download CV" />
@@ -34,3 +36,11 @@ const Navbar = () => {
   );
 };
 export default Navbar;
+const toggleTheme = () => {
+  console.log("dlfjhgdkfj");
+  if (document.documentElement.classList.contains("dark")) {
+    document.documentElement.classList.remove("dark");
+  } else {
+    document.documentElement.classList.add("dark");
+  }
+};

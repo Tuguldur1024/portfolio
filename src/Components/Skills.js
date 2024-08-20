@@ -39,20 +39,20 @@ const Skills = () => {
   return (
     <div class="flex flex-col items-center gap-4">
       <ButtonAbout text="Skills" />
-      <p class="font-normal text-gray-600 text-xl mb-8 sm:mb-2">
+      <p class="font-normal text-gray-600 text-xl mb-8 sm:mb-2 dark:text-gray-300	">
         The skills, tools and technologies I am really good at:
       </p>
-        <div class="w-full grid grid-cols-8 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 justify-between">
-          {upperIcons.map((upperIcon, index) => {
-            return (
-              <Framework
-                key={index}
-                icon={upperIcon.value}
-                text={upperIcon.name}
-              />
-            );
-          })}
-        </div>
+      <div class="w-full grid grid-cols-8 gap-y-12 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 justify-between sm:gap-y-4">
+        {upperIcons.map((upperIcon, index) => {
+          return (
+            <Framework
+              key={index}
+              icon={upperIcon.value}
+              text={upperIcon.name}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 };
