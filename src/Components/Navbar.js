@@ -6,7 +6,7 @@ import InfoIcon from "./icons/InfoIcon";
 const links = [
   { name: "About" },
   { name: "Work" },
-  { name: "Testimonials" },
+  { name: "Testimonials"},
   { name: "Contact" },
 ];
 const Navbar = () => {
@@ -37,7 +37,6 @@ const Navbar = () => {
 };
 export default Navbar;
 const toggleTheme = () => {
-  console.log("dlfjhgdkfj");
   if (document.documentElement.classList.contains("dark")) {
     document.documentElement.classList.remove("dark");
   } else {

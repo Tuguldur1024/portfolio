@@ -33,9 +33,9 @@ const Introduction = () => {
           </div>
         </div>
         <div class="flex gap-1">
-          <CatIcon color="white" />
-          <TwitterIcon color="white" />
-          <FigmaIcon color="white" />
+          <CatIcon/>
+          <TwitterIcon />
+          <FigmaIcon  />
         </div>
       </div>
 

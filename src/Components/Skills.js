@@ -16,21 +16,27 @@ import Socket from "./icons/SocketIcon";
 import StoryBook from "./icons/StoryBookIcon";
 import Tailwind from "./icons/TailwindIcon";
 import Typescript from "./icons/TypescriptIcon";
-
+let color1 = "white"
+let background1 = "black"
+// if(document.documentElement.classList.contains("dark"))
+// {
+//   background1 = "black"
+//   color1 = "white"
+// }
 let upperIcons = [
   { name: "Javascript", value: <Javascript /> },
   { name: "Typescript", value: <Typescript /> },
   { name: "React", value: <React /> },
   { name: "Node.js", value: <Node /> },
-  { name: "Express.js", value: <Express /> },
+  { name: "Express.js", value: <Express color={color1}/> },
   { name: "Javascript", value: <Javascript /> },
   { name: "Nest.js", value: <Nest /> },
-  { name: "Socket.io", value: <Socket /> },
+  { name: "Socket.io", value: <Socket color={color1} background={background1}/> },
   { name: "MongoDb", value: <MongoDb /> },
   { name: "Sass/Scss", value: <Sass /> },
   { name: "Tailwindcss", value: <StoryBook /> },
   { name: "Figma", value: <FigmaColored /> },
-  { name: "Cypress", value: <Cypress /> },
+  { name: "Cypress", value: <Cypress color = {color1}/> },
   { name: "StoryBook", value: <StoryBook /> },
   { name: "Git", value: <Git /> },
   { name: "MongoDb", value: <MongoDb /> },
