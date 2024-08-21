@@ -9,7 +9,7 @@ const Introduction = () => {
       <div class="w-2/4 flex flex-col gap-12 sm:w-full">
         <div>
           <h1 class="text-5xl font-bold sm:font-semibold sm:text-4xl	dark:text-gray-50		">
-            Hi, I'm him 👋
+            Hi, Im him 👋
           </h1>
           <p class="mt-2 text-gray-600  font-normal  dark:text-gray-300">
             I specialize in full stack development, particularly with React.js
@@ -33,9 +33,9 @@ const Introduction = () => {
           </div>
         </div>
         <div class="flex gap-1">
-          <CatIcon/>
+          <CatIcon />
           <TwitterIcon />
-          <FigmaIcon  />
+          <FigmaIcon />
         </div>
       </div>
 

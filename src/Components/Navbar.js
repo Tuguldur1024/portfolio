@@ -6,7 +6,7 @@ import InfoIcon from "./icons/InfoIcon";
 const links = [
   { name: "About" },
   { name: "Work" },
-  { name: "Testimonials"},
+  { name: "Testimonials" },
   { name: "Contact" },
 ];
 const Navbar = () => {
@@ -17,8 +17,8 @@ const Navbar = () => {
       </p>
       <div class="flex justify-between gap-4 items-center sm:hidden">
         <div class="flex justify-center gap-4">
-          {links.map((link) => {
-            return <NavigationLink text={link.name} />;
+          {links.map((link, index) => {
+            return <NavigationLink key={index} text={link.name} />;
           })}
         </div>
         <div class="h-6 w-0 bg-gray-100 border"></div>
