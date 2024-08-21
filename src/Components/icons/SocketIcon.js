@@ -1,5 +1,6 @@
 const Socket = (props) => {
-  let {background= "white", color= "black"} = props
+  let { background = "white", color = "black" } = props;
+
   return (
     <svg
       width="65"
@@ -27,4 +28,5 @@ const Socket = (props) => {
     </svg>
   );
 };
+
 export default Socket;
