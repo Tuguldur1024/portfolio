@@ -6,15 +6,14 @@ import Experience from "../components/Experience";
 import Work from "../components/Work";
 import GetInTouch from "../components/GetInTouch";
 import Footer from "../components/Footer";
+import Kebab from "../components/Kebab";
+import Drawer from "../components/Drawer";
 
 const Home = () => {
   return (
-    <div class="flex flex-col">
-      {/* <button onClick={toggleTheme}>toggle</button>
-      <h1 className="bg-black text-white dark:bg-white dark:text-black">
-        hello
-      </h1> */}
+    <div class=" container max-w-screen-xl mx-auto ">
       <div class="px-20 sm:px-4 dark:bg-gray-950">
+        <Drawer />
         <Navbar />
         <Introduction />
       </div>
