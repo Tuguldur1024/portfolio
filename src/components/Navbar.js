@@ -11,11 +11,11 @@ const links = [
 ];
 const Navbar = () => {
   return (
-    <div class="flex items-center px-8 justify-between my-4 sm:px-0">
+    <div class="flex items-center md:px-8 justify-between my-4 px-4">
       <p class="font-normal text-3xl font-rubikMono dark:text-gray-50	">
         Tuguldur
       </p>
-      <div class="flex justify-between gap-4 items-center sm:hidden">
+      <div class="lg:flex justify-between gap-4 items-center hidden">
         <div class="flex justify-center gap-4">
           {links.map((link, index) => {
             return <NavigationLink key={index} text={link.name} />;
@@ -29,7 +29,7 @@ const Navbar = () => {
           <CvButton text="Download CV" />
         </div>
       </div>
-      <div className="hidden sm:block">
+      <div className=" lg:hidden">
         <InfoIcon />
       </div>
     </div>

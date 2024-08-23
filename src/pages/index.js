@@ -12,12 +12,11 @@ import Drawer from "../components/Drawer";
 const Home = () => {
   return (
     <div class=" container max-w-screen-xl mx-auto ">
-      <div class="px-20 sm:px-4 dark:bg-gray-950">
-        <Drawer />
+      <div class="sm:px-8 px-4 md:px-12 lg:px-20 dark:bg-gray-950">
         <Navbar />
         <Introduction />
       </div>
-      <div class="bg-gray-50 px-28 py-24 sm:py-16 sm:px-4 dark:bg-gray-900	">
+      <div class="bg-gray-50 py-16 px-4 sm:px-28 sm:py-24 lg: dark:bg-gray-900	">
         <AboutMe />
       </div>
       <div class="px-28 py-24 sm:py-16 sm:px-4 dark:bg-gray-950">

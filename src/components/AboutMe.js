@@ -5,10 +5,9 @@ const AboutMe = () => {
   return (
     <div class="flex flex-col gap-12 items-center sm:flex-col sm:gap-6">
       <ButtonAbout text="About me" />
-      <div class="flex gap-12 sm:flex-col sm:w-full ">
+      <div class="flex gap-12 sm:flex sm:w-full ">
         <div class="w-2/4 flex justify-start sm:w-full">
           <div class="border-8 border-solid border-gray-50	">
-            {" "}
             <Image
               src="/images/AboutMe.png"
               width={400}
