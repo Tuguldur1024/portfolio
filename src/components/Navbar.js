@@ -3,6 +3,7 @@ import CvButton from "./CvButton";
 import LightIcon from "./icons/LightIcon";
 import InfoIcon from "./icons/InfoIcon";
 import Xmark from "./icons/Xmark";
+import NightIcon from "./icons/NightIcon";
 
 const links = [
   { name: "About" },
@@ -52,7 +53,10 @@ const Navbar = () => {
         <div class="h-6 w-0 bg-gray-100 border"></div>
         <div class="flex items-center gap-4">
           <div onClick={toggleTheme}>
-            <LightIcon />
+            <LightIcon className="dark:hidden" />
+          </div>
+          <div onClick={toggleTheme}>
+            <NightIcon className="hidden dark:block" />
           </div>
           <CvButton text="Download CV" />
         </div>

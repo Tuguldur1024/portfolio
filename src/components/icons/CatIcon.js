@@ -1,7 +1,8 @@
 const CatIcon = (props) => {
-  const { color = "#4B5563" } = props;
+  const { color = "#4B5563", className } = props;
   return (
     <svg
+      className={className}
       width="36"
       height="36"
       viewBox="0 0 36 36"

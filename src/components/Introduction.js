@@ -22,7 +22,8 @@ const Introduction = () => {
 
         <div class="flex flex-col gap-2">
           <div class="flex gap-2  align-center  dark:text-gray-300">
-            <LocationIcon />
+            <LocationIcon className="dark:hidden" />
+            <LocationIcon className="hidden dark:block" color={"white"} />
             <p> Ulaanbaatar, Mongolia </p>
           </div>
           <div class="flex gap-2 align-center  dark:text-gray-300">
@@ -33,9 +34,12 @@ const Introduction = () => {
           </div>
         </div>
         <div class="flex gap-1">
-          <CatIcon />
-          <TwitterIcon />
-          <FigmaIcon />
+          <CatIcon className="dark:hidden" />
+          <CatIcon className="hidden dark:block" color={"white"} />
+          <TwitterIcon className="dark:hidden" />
+          <TwitterIcon className="hidden dark:block" color={"white"} />
+          <FigmaIcon className="dark:hidden" />
+          <FigmaIcon className="hidden dark:block" color={"white"} />
         </div>
       </div>
 

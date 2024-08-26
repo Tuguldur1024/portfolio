@@ -17,27 +17,46 @@ const GetInTouch = () => {
       </div>
       <div class="flex flex-col gap-4 items-center sm:gap-0">
         <div class="flex gap-4 items-center md:gap-5">
-          <EnvelopeIcon className="md:w-8 md:h-8" />
+          <EnvelopeIcon className="md:w-8 md:h-8 dark:hidden" />
+          <EnvelopeIcon
+            className="md:w-8 md:h-8 hidden dark:block"
+            color={"white"}
+          />
           <p class="text-gray-900 font-semibold md:text-4xl text-lg dark:text-gray-50	">
             Tuguldur@pinecone.mn
           </p>
-          <NewTabIcon className="md:w-8 md:h-8" />
+          <NewTabIcon className="md:w-8 md:h-8 dark:hidden" />
+          <NewTabIcon
+            className="md:w-8 md:h-8 hidden dark:block"
+            color={"white"}
+          />
         </div>
         <div class="flex gap-4 items-center md:gap-5">
-          <PhoneIcon className="md:w-8 md:h-8" />
+          <PhoneIcon className="md:w-8 md:h-8 dark:hidden" />
+          <PhoneIcon
+            className="md:w-8 md:h-8 hidden dark:block"
+            color={"white"}
+          />
           <p class="text-gray-900 font-semibold md:text-4xl text-lg dark:text-gray-50	">
             {" "}
             +976 99119911{" "}
           </p>
-          <NewTabIcon className="md:w-8 md:h-8" />
+          <NewTabIcon className="md:w-8 md:h-8 dark:hidden" />
+          <NewTabIcon
+            className="md:w-8 md:h-8 hidden dark:block"
+            color={"white"}
+          />
         </div>
       </div>
-      <div class="flex flex-col gap-2 items-center">
+      <div class="flex flex-col gap-2 items-center dark:text-gray-300	">
         <p> You may also find me on these platforms! </p>
         <div class="flex gap-1 items-center">
-          <CatIcon />
-          <TwitterIcon />
-          <FigmaIcon />
+          <CatIcon className="dark:hidden" />
+          <CatIcon className="hidden dark:block" color={"white"} />
+          <TwitterIcon className="dark:hidden" />
+          <TwitterIcon className="hidden dark:block" color={"white"} />
+          <FigmaIcon className="dark:hidden" />
+          <FigmaIcon className="hidden dark:block" color={"white"} />
         </div>
       </div>
     </div>

@@ -1,6 +1,8 @@
-const LightIcon = () => {
+const LightIcon = (props) => {
+  const { className } = props;
   return (
     <svg
+      className={className}
       width="24"
       height="24"
       viewBox="0 0 24 24"
