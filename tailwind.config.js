@@ -29,5 +29,5 @@ module.exports = {
     //   // => @media (max-width: 639px) { ... }
     // },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };

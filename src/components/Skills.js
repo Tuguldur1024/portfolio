@@ -16,8 +16,6 @@ import Socket from "./icons/SocketIcon";
 import StoryBook from "./icons/StoryBookIcon";
 import Tailwind from "./icons/TailwindIcon";
 import Typescript from "./icons/TypescriptIcon";
-let color1 = "white";
-let background1 = "black";
 // if(document.documentElement.classList.contains("dark"))
 // {
 //   background1 = "black"
@@ -28,18 +26,43 @@ let upperIcons = [
   { name: "Typescript", value: <Typescript /> },
   { name: "React", value: <React /> },
   { name: "Node.js", value: <Node /> },
-  { name: "Express.js", value: <Express color={color1} /> },
+  {
+    name: "Express.js",
+    value: (
+      <>
+        <Express color={"white"} className="hidden dark:block" />
+        <Express className="dark:hidden" />
+      </>
+    ),
+  },
   { name: "Javascript", value: <Javascript /> },
   { name: "Nest.js", value: <Nest /> },
   {
     name: "Socket.io",
-    value: <Socket color={color1} background={background1} />,
+    value: (
+      <>
+        <Socket
+          color={"white"}
+          background={"black"}
+          className="hidden dark:block"
+        />
+        <Socket className="dark:hidden" />
+      </>
+    ),
   },
   { name: "MongoDb", value: <MongoDb /> },
   { name: "Sass/Scss", value: <Sass /> },
   { name: "Tailwindcss", value: <StoryBook /> },
   { name: "Figma", value: <FigmaColored /> },
-  { name: "Cypress", value: <Cypress color={color1} /> },
+  {
+    name: "Cypress",
+    value: (
+      <>
+        <Cypress className="hidden dark:block" color="white" />
+        <Cypress className="dark:hidden" />
+      </>
+    ),
+  },
   { name: "StoryBook", value: <StoryBook /> },
   { name: "Git", value: <Git /> },
   { name: "MongoDb", value: <MongoDb /> },
@@ -51,7 +74,7 @@ const Skills = () => {
       <p class="font-normal text-gray-600 text-xl mb-8 sm:mb-2 dark:text-gray-300	">
         The skills, tools and technologies I am really good at:
       </p>
-      <div class="w-full grid gap-y-12 grid-cols-3 md:grid-cols-4 lg:grid-cols-8 justify-between sm:gap-y-4">
+      <div class="w-full grid gap-y-12 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 justify-between sm:gap-y-4">
         {upperIcons.map((upperIcon, index) => {
           return (
             <Framework

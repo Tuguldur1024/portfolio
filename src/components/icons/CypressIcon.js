@@ -1,7 +1,8 @@
 const Cypress = (props) => {
-  let {color="black"} = props
+  let { className, color = "black" } = props;
   return (
     <svg
+      className={`${className}`}
       width="65"
       height="64"
       viewBox="0 0 65 64"

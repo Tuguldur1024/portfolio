@@ -5,10 +5,10 @@ import CatIcon from "./icons/CatIcon";
 import Image from "next/image";
 const Introduction = () => {
   return (
-    <div class="md:my-24 md:px-8 flex md:flex-row gap-12 flex-col-reverse my-16 px-0">
+    <div class="md:py-24 md:px-8 flex md:flex-row gap-12 flex-col-reverse py-16 px-0">
       <div class=" flex flex-col gap-12 w-full">
         <div>
-          <h1 class="text-5xl font-bold sm:font-semibold sm:text-4xl	dark:text-gray-50		">
+          <h1 class="text-4xl font-bold sm:font-semibold md:text-5xl	dark:text-gray-50		">
             Hi, Im him 👋
           </h1>
           <p class="mt-2 text-gray-600  font-normal  dark:text-gray-300">

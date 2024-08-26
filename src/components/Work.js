@@ -63,9 +63,9 @@ const data = [
 
 const Work = () => {
   return (
-    <div class="flex flex-col gap-12 items-center px-16 sm:px-0">
+    <div class="flex flex-col gap-6 items-center px-0 md:px-16 lg:px-16">
       <ButtonAbout text="Work" />
-      <p class="font-normal text-gray-600 text-xl mb-8 text-center sm:mb-2 dark:text-gray-300	 ">
+      <p class="font-normal text-gray-600 text-xl mb-2 text-center md:mb-8 lg:smb-8 dark:text-gray-300	 ">
         Some of the noteworthy projects I have built:
       </p>
       {data.map((OneWork, index) => {

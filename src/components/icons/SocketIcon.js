@@ -1,8 +1,9 @@
 const Socket = (props) => {
-  let { background = "white", color = "black" } = props;
+  let { className, background = "white", color = "black" } = props;
 
   return (
     <svg
+      className={`${className}`}
       width="65"
       height="64"
       viewBox="0 0 65 64"

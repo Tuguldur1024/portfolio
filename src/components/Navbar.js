@@ -2,6 +2,7 @@ import NavigationLink from "./NavigationLink";
 import CvButton from "./CvButton";
 import LightIcon from "./icons/LightIcon";
 import InfoIcon from "./icons/InfoIcon";
+import Xmark from "./icons/Xmark";
 
 const links = [
   { name: "About" },
@@ -9,10 +10,37 @@ const links = [
   { name: "Testimonials" },
   { name: "Contact" },
 ];
+
+<div className="drawer">
+  <input id="my-drawer" type="checkbox" className="drawer-toggle" />
+  <div className="drawer-content">
+    {/* Page content here */}
+    <label htmlFor="my-drawer" className="btn btn-primary drawer-button">
+      Open drawer
+    </label>
+  </div>
+  <div className="drawer-side">
+    <label
+      htmlFor="my-drawer"
+      aria-label="close sidebar"
+      className="drawer-overlay"
+    ></label>
+    <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
+      {/* Sidebar content here */}
+      <li>
+        <a>Sidebar Item 1</a>
+      </li>
+      <li>
+        <a>Sidebar Item 2</a>
+      </li>
+    </ul>
+  </div>
+</div>;
+
 const Navbar = () => {
   return (
-    <div class="flex items-center md:px-8 justify-between my-4 px-4">
-      <p class="font-normal text-3xl font-rubikMono dark:text-gray-50	">
+    <div class="flex items-center md:px-8 justify-between py-4 px-4">
+      <p class="font-normal text-start text-3xl font-rubikMono dark:text-gray-50	">
         Tuguldur
       </p>
       <div class="lg:flex justify-between gap-4 items-center hidden">
@@ -29,7 +57,7 @@ const Navbar = () => {
           <CvButton text="Download CV" />
         </div>
       </div>
-      <div className=" lg:hidden">
+      <div className="lg:hidden drawer-button">
         <InfoIcon />
       </div>
     </div>

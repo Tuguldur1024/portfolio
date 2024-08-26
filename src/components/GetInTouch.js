@@ -7,30 +7,29 @@ import FigmaIcon from "./icons/FigmaIcon";
 import CatIcon from "./icons/CatIcon";
 const GetInTouch = () => {
   return (
-    <div class="flex flex-col gap-12 items-center px-8 sm:gap-6 sm:px-0">
+    <div class="flex flex-col gap-6 items-center px-0 md:gap-12 md:px-8">
       <div class="flex flex-col gap-4 items-center">
         <ButtonAbout text="Get in touch" />
-        <p class="font-normal text-gray-600 text-xl mb-8 sm:mb-0 text-center dark:text-gray-300	">
+        <p class="font-normal text-gray-600 text-xl mb-0 md:mb-8 text-center dark:text-gray-300	">
           Whats next? Feel free to reach out to me if youre looking for a
           developer, have a query, or simply want to connect.
         </p>
       </div>
       <div class="flex flex-col gap-4 items-center sm:gap-0">
-        <div class="flex gap-5 items-center sm:gap-4">
-          <EnvelopeIcon />
-          <p class="text-gray-900 font-semibold text-4xl sm:text-lg dark:text-gray-50	">
-            {" "}
-            Tuguldur@pinecone.mn{" "}
+        <div class="flex gap-4 items-center md:gap-5">
+          <EnvelopeIcon className="md:w-8 md:h-8" />
+          <p class="text-gray-900 font-semibold md:text-4xl text-lg dark:text-gray-50	">
+            Tuguldur@pinecone.mn
           </p>
-          <NewTabIcon />
+          <NewTabIcon className="md:w-8 md:h-8" />
         </div>
-        <div class="flex gap-5 items-center sm:gap-4">
-          <PhoneIcon />
-          <p class="text-gray-900 font-semibold text-4xl sm:text-lg dark:text-gray-50	">
+        <div class="flex gap-4 items-center md:gap-5">
+          <PhoneIcon className="md:w-8 md:h-8" />
+          <p class="text-gray-900 font-semibold md:text-4xl text-lg dark:text-gray-50	">
             {" "}
             +976 99119911{" "}
           </p>
-          <NewTabIcon />
+          <NewTabIcon className="md:w-8 md:h-8" />
         </div>
       </div>
       <div class="flex flex-col gap-2 items-center">
