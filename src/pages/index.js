@@ -16,13 +16,13 @@ const Home = () => {
         <Navbar />
         <Introduction />
       </div>
-      <div class="bg-gray-50 py-16 px-4 sm:px-28 sm:py-24 lg: dark:bg-gray-900	">
+      <div class="bg-gray-50 py-16 px-4 sm:px-8 md:px-12 sm:py-24 lg:px-20 dark:bg-gray-900	">
         <AboutMe />
       </div>
-      <div class="px-28 py-24 sm:py-16 sm:px-4 dark:bg-gray-950">
+      <div class="px-4 py-16 md:py-24 md:px-20 dark:bg-gray-950">
         <Skills />
       </div>
-      <div class="bg-gray-50 px-20 py-24 sm:py-16 sm:px-4 dark:bg-gray-900">
+      <div class="bg-gray-50 px-4 py-16 md:py-24 md:px-20 dark:bg-gray-950">
         <Experience />
       </div>
       <div class="px-20 py-24 sm:py-16 sm:px-4 dark:bg-gray-950">
