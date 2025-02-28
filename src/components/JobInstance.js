@@ -1,3 +1,4 @@
+import Link from "next/link";
 import ButtonAbout from "./ButtonAbout";
 import GoToLinkBtn from "./icons/GoToLinkBtn";
 import Image from "next/image";
@@ -26,7 +27,8 @@ const JobInstance = (props) => {
             return <ButtonAbout key={index} text={framework} />;
           })}
         </div>
-        <GoToLinkBtn />
+        <Link className="flex items-center" href={`${props.link}`}><GoToLinkBtn /> <p className="text-gray-600  dark:text-gray-300"> -------------- website </p> </Link>
+        <Link className="flex items-center" href={`${props.githubLink}`}><GoToLinkBtn /> <p className="text-gray-600  dark:text-gray-300" > --------------- github repo </p> </Link>
       </div>
     </div>
   );
@@ -46,8 +48,9 @@ const JobInstance = (props) => {
               return <ButtonAbout key={index} text={framework} />;
             })}
           </div>
-          <GoToLinkBtn />
-        </div>
+        <Link className="flex items-center" href={`${props.link}`}><GoToLinkBtn /> <p className="text-gray-600  dark:text-gray-300"> -------------- website </p> </Link>
+        <Link className="flex items-center" href={`${props.githubLink}`}><GoToLinkBtn /> <p className="text-gray-600  dark:text-gray-300" > --------------- github repo </p> </Link>
+          </div>
         <div class="flex justify-center items-center p-8 border border-gray-100 sm:w-full md:p-12 dark:bg-gray-700 dark:border dark:border-gray-800	">
           <Image
             class="drop-shadow-lg"

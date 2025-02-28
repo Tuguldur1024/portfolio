@@ -23,7 +23,7 @@ const GetInTouch = () => {
             color={"white"}
           />
           <p class="text-gray-900 font-semibold md:text-4xl text-lg dark:text-gray-50	">
-            Tuguldur@pinecone.mn
+            purevochirbilguuntuguldur@gmail.com
           </p>
           <NewTabIcon className="md:w-8 md:h-8 dark:hidden" />
           <NewTabIcon
@@ -39,7 +39,7 @@ const GetInTouch = () => {
           />
           <p class="text-gray-900 font-semibold md:text-4xl text-lg dark:text-gray-50	">
             {" "}
-            +976 99119911{" "}
+            +976 96050150
           </p>
           <NewTabIcon className="md:w-8 md:h-8 dark:hidden" />
           <NewTabIcon
@@ -48,17 +48,7 @@ const GetInTouch = () => {
           />
         </div>
       </div>
-      <div class="flex flex-col gap-2 items-center dark:text-gray-300	">
-        <p> You may also find me on these platforms! </p>
-        <div class="flex gap-1 items-center">
-          <CatIcon className="dark:hidden" />
-          <CatIcon className="hidden dark:block" color={"white"} />
-          <TwitterIcon className="dark:hidden" />
-          <TwitterIcon className="hidden dark:block" color={"white"} />
-          <FigmaIcon className="dark:hidden" />
-          <FigmaIcon className="hidden dark:block" color={"white"} />
-        </div>
-      </div>
+      
     </div>
   );
 };

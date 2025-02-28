@@ -11,7 +11,7 @@ import Drawer from "../components/Drawer";
 
 const Home = () => {
   return (
-    <div class=" container max-w-screen-xl mx-auto ">
+    <div class=" container mx-auto ">
       <div class="sm:px-8 px-4 md:px-12 lg:px-20 dark:bg-gray-950">
         <Navbar />
         <Introduction />
@@ -22,9 +22,9 @@ const Home = () => {
       <div class="px-4 py-16 md:py-24 md:px-20 dark:bg-gray-950">
         <Skills />
       </div>
-      <div class="bg-gray-50 py-16 px-4 sm:px-8 md:px-12 md:py-24 lg:px-20 dark:bg-gray-900">
+      {/* <div class="bg-gray-50 py-16 px-4 sm:px-8 md:px-12 md:py-24 lg:px-20 dark:bg-gray-900">
         <Experience />
-      </div>
+      </div> */}
       <div class="py-16 px-4 sm:px-8 md:px-12 md:py-24 lg:px-20 dark:bg-gray-950">
         <Work />
       </div>

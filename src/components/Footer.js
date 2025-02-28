@@ -5,7 +5,7 @@ const Footer = () => {
       <CopyRightIcon className="dark:hidden" />
       <CopyRightIcon className="hidden dark:block" color="white" />
       <p class="font-normal text-gray-600	text-sm dark:text-gray-300">
-        2024 | Greetings with ❤️️ from Ulaanbaatar
+        2025 | Thank you for visiting my portfolio ❤️️
       </p>
     </div>
   );

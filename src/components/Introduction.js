@@ -9,14 +9,12 @@ const Introduction = () => {
       <div class=" flex flex-col gap-12 w-full">
         <div>
           <h1 class="text-4xl font-bold sm:font-semibold md:text-5xl	dark:text-gray-50		">
-            Hi, Im him 👋
+            Hi, I am Bilguuntuguldur
           </h1>
           <p class="mt-2 text-gray-600  font-normal  dark:text-gray-300">
+            I am an Computer Science student who loves learning programming. 
             I specialize in full stack development, particularly with React.js
-            and Node.js. My main goal is to create exceptional digital
-            experiences that are fast, visually appealing, and accessible to
-            everyone. With over 7 years of experience in web development, I
-            continue to find joy in crafting innovative solutions and designs.
+            and Node.js. 
           </p>
         </div>
 
@@ -46,7 +44,7 @@ const Introduction = () => {
       <div class=" flex justify-center lg:justify-end sm:w-full">
         <Image
           // fill
-          src="/images/Intro.png"
+          src="/images/download.png"
           width={320}
           height={360}
           alt="Intro Picture"

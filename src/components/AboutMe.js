@@ -9,7 +9,7 @@ const AboutMe = () => {
         <div class="flex sm:w-full justify-center">
           <div class="border-8 border-solid items-center border-gray-50">
             <Image
-              src="/images/AboutMe.png"
+              src="/images/png"
               width={440}
               height={520}
               alt="img"
@@ -19,36 +19,24 @@ const AboutMe = () => {
         <div class="sm:w-full">
           <div class="flex flex-col gap-4 font-normal text-base text-gray-600 dark:text-gray-300	">
             <p class="font-semibold text-3xl mb-2 dark:text-gray-50	">
-              Curious about me? Here you have it:
+              Curious about me? :
             </p>
             <p>
-              Im a designer turned full stack developer, passionate about
-              React.js and Node.js. I excel in blending technical and visual
-              aspects to craft exceptional digital products, prioritizing user
-              experience, precise design, and optimized code.
+            I am a passionate full-stack developer with a strong focus on MERN stack development. Lately, I have also been diving into AI models and expanding my knowledge in the field.            </p>
+            <p>
+            Having mastered the MERN stack, I have built several projects—both individually and collaboratively. I usually handle the logical aspects of projects, including database structuring and API development. However, that does not mean I shy away from frontend work—I am quite skilled at it too!
             </p>
             <p>
-              Since starting my web development journey in 2015, Ive embraced
-              challenges and kept up with the latest tech trends. Now in my
-              early thirties, seven years in, Im building cutting-edge web apps
-              using Next.js, TypeScript, Nestjs, Tailwindcss, Supabase, and
-              more.
-            </p>
-            <p>
-              With a progressive mindset, I enjoy the entire product development
-              process, from ideation to execution. Off duty, youll find me on
-              Twitter, tracking startup journeys, or unwinding. Follow me for
-              tech insights and public project updates on Twitter or GitHub.
-            </p>
+            I love solving programming challenges and actively participate in competitive programming, earning some notable awards along the way.            </p>
             <p>Finally, some quick bits about me.</p>
             <div>
-              <li>B.E. in Computer Engineering</li>
-              <li>Avid learner </li>
-              <li>Full time freelancer</li>
+              <li>A sports enthusiast</li>
+              <li>Passionate about programming and AI</li>
+              <li>Avid learner and dedicated worker</li>
+              <li>Highly motivated to showcase my skills and potential</li>
             </div>
             <p>
-              One last thing, Im available for freelance work, so feel free to
-              reach out and say hello! I promise I dont bite 😉
+            Lastly, I am eager to work and confident that I can be a valuable asset to your company.
             </p>
           </div>
         </div>

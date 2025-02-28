@@ -16,6 +16,10 @@ import Socket from "./icons/SocketIcon";
 import StoryBook from "./icons/StoryBookIcon";
 import Tailwind from "./icons/TailwindIcon";
 import Typescript from "./icons/TypescriptIcon";
+import SpringBoot from "./icons/SprintBoot";
+import PythonLogo from "./icons/Python";
+
+
 // if(document.documentElement.classList.contains("dark"))
 // {
 //   background1 = "black"
@@ -35,8 +39,6 @@ let upperIcons = [
       </>
     ),
   },
-  { name: "Javascript", value: <Javascript /> },
-  { name: "Nest.js", value: <Nest /> },
   {
     name: "Socket.io",
     value: (
@@ -50,10 +52,13 @@ let upperIcons = [
       </>
     ),
   },
-  { name: "MongoDb", value: <MongoDb /> },
-  { name: "Sass/Scss", value: <Sass /> },
   { name: "Tailwindcss", value: <StoryBook /> },
   { name: "Figma", value: <FigmaColored /> },
+  {name : "PostgreSQL" , value : ""},
+  {name : "Spring Boot", value : <SpringBoot/>},
+  {name : "GraphQL", value : ""},
+  {name : "Python" , value : ""},
+  {name : "C# .net", value :""},
   {
     name: "Cypress",
     value: (
@@ -63,7 +68,6 @@ let upperIcons = [
       </>
     ),
   },
-  { name: "StoryBook", value: <StoryBook /> },
   { name: "Git", value: <Git /> },
   { name: "MongoDb", value: <MongoDb /> },
 ];
@@ -72,7 +76,7 @@ const Skills = () => {
     <div class="flex flex-col items-center gap-4">
       <ButtonAbout text="Skills" />
       <p class="font-normal text-gray-600 text-xl mb-8 sm:mb-2 dark:text-gray-300	">
-        The skills, tools and technologies I am really good at:
+        The skills and technologies I have familiar with and still learning:
       </p>
       <div class="w-full grid gap-y-12 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8 justify-between sm:gap-y-4">
         {upperIcons.map((upperIcon, index) => {
