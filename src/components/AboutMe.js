@@ -10,7 +10,7 @@ const AboutMe = () => {
           <div class="border-8 border-solid items-center border-gray-50">
             <Image
               src="/images/png"
-              width={440}
+              width={350}
               height={520}
               alt="img"
             />

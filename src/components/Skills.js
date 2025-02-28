@@ -16,9 +16,12 @@ import Socket from "./icons/SocketIcon";
 import StoryBook from "./icons/StoryBookIcon";
 import Tailwind from "./icons/TailwindIcon";
 import Typescript from "./icons/TypescriptIcon";
-import SpringBoot from "./icons/SprintBoot";
 import PythonLogo from "./icons/Python";
-
+import { Postgre } from "./icons/Postgre";
+import { Python } from "./icons/Python";
+import { GraphQL } from "./icons/GraphQL";
+import { Cprogramm } from "./icons/C#";
+import { SpringBoot } from "./icons/SpringBoot";
 
 // if(document.documentElement.classList.contains("dark"))
 // {
@@ -54,11 +57,11 @@ let upperIcons = [
   },
   { name: "Tailwindcss", value: <StoryBook /> },
   { name: "Figma", value: <FigmaColored /> },
-  {name : "PostgreSQL" , value : ""},
+  {name : "PostgreSQL" , value : <Postgre/>},
   {name : "Spring Boot", value : <SpringBoot/>},
-  {name : "GraphQL", value : ""},
-  {name : "Python" , value : ""},
-  {name : "C# .net", value :""},
+  {name : "GraphQL", value : <GraphQL/>},
+  {name : "Python" , value : <Python/>},
+  {name : "C# .net", value :<Cprogramm/>},
   {
     name: "Cypress",
     value: (
