@@ -1,16 +1,14 @@
 import NavigationLink from "./NavigationLink";
-import CvButton from "./CvButton";
 import LightIcon from "./icons/LightIcon";
 import InfoIcon from "./icons/InfoIcon";
 import NightIcon from "./icons/NightIcon";
 
 const links = [{ name: "About" }];
-const cvFilePath = "/files/CV.pdf"; 
+const cvFilePath = "/CV2.pdf"; 
 
 const Navbar = () => {
   return (
     <>
-      {/* Navbar Section */}
       <div className="flex items-center md:px-8 justify-between py-4 px-4">
         <p className="font-normal text-start text-3xl font-rubikMono dark:text-gray-50">
           Tuguldur
