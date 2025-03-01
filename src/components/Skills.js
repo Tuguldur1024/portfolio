@@ -14,7 +14,6 @@ import React from "./icons/ReactIcon";
 import Sass from "./icons/SassIcon";
 import Socket from "./icons/SocketIcon";
 import StoryBook from "./icons/StoryBookIcon";
-import Tailwind from "./icons/TailwindIcon";
 import Typescript from "./icons/TypescriptIcon";
 import PythonLogo from "./icons/Python";
 import { Postgre } from "./icons/Postgre";
@@ -22,6 +21,7 @@ import { Python } from "./icons/Python";
 import { GraphQL } from "./icons/GraphQL";
 import { Cprogramm } from "./icons/C#";
 import { SpringBoot } from "./icons/SpringBoot";
+import Tailwind from "./icons/TailwindIcon";
 
 // if(document.documentElement.classList.contains("dark"))
 // {
@@ -55,7 +55,7 @@ let upperIcons = [
       </>
     ),
   },
-  { name: "Tailwindcss", value: <StoryBook /> },
+  { name: "Tailwindcss", value: <Tailwind /> },
   { name: "Figma", value: <FigmaColored /> },
   {name : "PostgreSQL" , value : <Postgre/>},
   {name : "Spring Boot", value : <SpringBoot/>},
